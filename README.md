@@ -1,6 +1,6 @@
-#Tools 常用小工具
+# Tools 常用小工具
 
-##byteSize
+## byteSize
 
 ```js
 import {byteSize} from 'riku-verycloud'
@@ -23,7 +23,7 @@ byteSize('2048', {units: 'metric', precision: 2}).toString()
 |units|string|"`metric`", "`iec`", "`metric_octet`", "`iec_octet`"|单位|"`iec`"
 |precision|number||小数点保留位数|`1`|
 
-##cookie
+## cookie
 
 ```js
 import {cookie} from 'riku-verycloud'
@@ -57,7 +57,7 @@ cookie.remove('bar', {
 })
 ```
 
-##dateFormat
+## dateFormat
 
 ```js
 import {dateFormat} from 'riku-verycloud'
@@ -68,7 +68,7 @@ import {dateFormat} from 'riku-verycloud'
 dateFormat(new Date(), 'YYYY-MM-DD HH:mm:ss')
 ```
 
-##debounce
+## debounce
 ```js
 import {debounce} from 'riku-verycloud'
 ```
@@ -76,7 +76,7 @@ import {debounce} from 'riku-verycloud'
 ```js
 debounce(fn, 3000)
 ```
-##throttle
+## throttle
 
 ```js
 import {throttle} from 'riku-verycloud'
@@ -86,7 +86,7 @@ import {throttle} from 'riku-verycloud'
 throttle(fn, 3000)
 ```
 
-##number
+## number
 
 ```js
 import {number} from 'riku-verycloud'
@@ -129,7 +129,7 @@ number.random(1, 7)
 number.range(1, 10)
 // ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10"]
 ```
-##queryString
+## queryString
 
 ```js
 import {queryString} from 'riku-verycloud'
@@ -143,7 +143,7 @@ queryString.parse('a=b&c=d')
 queryString.stringify({a: 'b', c: 'd'})
 // “a=b&c=d”
 ```
-##stringTrim
+## stringTrim
 
 ```js
 import {stringTrim} from 'riku-verycloud'
@@ -155,7 +155,7 @@ stringTrim(' 1024 ')
 // “1024”
 ```
 
-#组件
+# 组件
 
 ```js
 // 全局注册
@@ -163,7 +163,7 @@ import verycloud from 'riku-verycloud'
 Vue.use(verycloud)
 ```
 
-##Qrcode 二维码
+## Qrcode 二维码
 
 ```js
 // 单独引用
