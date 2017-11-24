@@ -1,0 +1,23 @@
+{
+  "name": "riku-verycloud",
+  "version": "1.0.0",
+  "description": "vue components and functions for verycloud projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "verycloud"
+  ],
+  "author": "rikushikin",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "qrcode2": "^1.2.3",
+    "vue": "^2.5.8",
+    "vue-hot-reload-api": "^2.2.4",
+    "webpack": "^2.7.0"
+  }
+}
