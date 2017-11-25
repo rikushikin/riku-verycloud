@@ -7,9 +7,6 @@ import number from './src/tools/number'
 import queryString from './src/tools/queryString'
 import stringTrim from './src/tools/stringTrim'
 
-// just for test
-import $Modal from './src/modal'
-
 // components
 import RQrcode from './src/qrcode/'
 
@@ -26,7 +23,6 @@ export {
   number,
   queryString,
   stringTrim,
-  $Modal,
   RQrcode
 }
 
