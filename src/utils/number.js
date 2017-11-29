@@ -1,4 +1,3 @@
-/* eslint-disable */
 'use strict'
 const comma = function(source, length = 3) {
   source = String(source).split(".");

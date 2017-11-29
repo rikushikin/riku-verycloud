@@ -1,4 +1,3 @@
-/* eslint-disable */
 // Cookie
 // https://github.com/MoeKit/cookie
 // -------------

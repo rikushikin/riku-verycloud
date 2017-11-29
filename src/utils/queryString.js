@@ -1,4 +1,3 @@
-/* eslint-disable */
 // QueryString
 // ---------------
 // This module provides utilities for dealing with query strings.
