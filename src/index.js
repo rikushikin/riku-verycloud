@@ -1,4 +1,5 @@
 // utils
+import arrayToTree from './utils/arrayToTree';
 import byteSize from './utils/byteSize';
 import cookie from './utils/cookie';
 import dateFormat from './utils/dateFormat';
@@ -15,6 +16,7 @@ const components = [
 ];
 
 const utils = {
+    arrayToTree,
     byteSize,
     cookie,
     dateFormat,

@@ -1,6 +1,6 @@
 {
   "name": "riku-verycloud",
-  "version": "1.0.2",
+  "version": "1.1.2",
   "title": "riku-verycloud",
   "description": "vue components and functions for verycloud projects",
   "keywords": [
@@ -20,8 +20,7 @@
     "dist:prod": "webpack --config build/webpack.dist.prod.config.js",
     "dist": "npm run dist:style && npm run dist:dev && npm run dist:prod",
     "lint": "eslint --fix --ext .js,.vue src",
-    "test": "npm run lint",
-    "prepublish": "npm run dist"
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",

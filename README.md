@@ -1,5 +1,51 @@
 # Utils 常用小工具
 
+## arrayToTree
+
+```js
+import {arrayToTree} from 'riku-verycloud'
+```
+
+将数组转化为树状数组
+
+```js
+const data = [
+	{id: 1, name: 'A'},
+	{id: 2, name: 'B', parent: 1},
+	{id: 3, name: 'C', parent: 2}
+]
+const tree = arrayToTree(data, {parent: 'parent'})
+/*
+[{
+  label: 'A',
+  value: 1,
+  children: [
+    {
+      label: 'B',
+      value: 2,
+      children: [
+        {
+          label: 'C',
+          value: 3,
+          children: []
+        }
+      ]
+    }
+  ]
+}]
+*/
+```
+
+|options|类型|默认值
+|:----|:----|:---|:----|
+|label|string|"name"|
+|value|string|"id"|
+|parent|string|"parent_id"|
+|labelProp|string|"label"|
+|valueProp|string|"value"|
+|childrenProp|string|"children"|
+
+
 ## byteSize
 
 ```js
