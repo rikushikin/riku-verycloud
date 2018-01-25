@@ -17,14 +17,17 @@ const data = [
 const tree = arrayToTree(data, {parent: 'parent'})
 /*
 [{
+  _raw: {id: 1, name: 'A'},
   label: 'A',
   value: 1,
   children: [
     {
+      _raw: {id: 2, name: 'B', parent: 1},
       label: 'B',
       value: 2,
       children: [
         {
+          _raw: {id: 3, name: 'C', parent: 2},
           label: 'C',
           value: 3,
           children: []
@@ -38,6 +41,7 @@ const tree = arrayToTree(data, {parent: 'parent'})
 
 |options|类型|默认值
 |:----|:----|:---|:----|
+
 |label|string|"name"|
 |value|string|"id"|
 |parent|string|"parent_id"|
